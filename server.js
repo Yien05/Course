@@ -24,7 +24,7 @@ mongoose
 
 // instruction: setup routes
 app.use("/course", require("./routes/courses"));
-app.use("/instructors", require("./routes/instructors"));
+app.use("/instructor", require("./routes/instructors"));
 
 app.get("/", (req, res) => {
   res.send("Good luck!");

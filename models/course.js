@@ -12,6 +12,7 @@ const { Schema, model } = mongoose;
     - `enrollmentCount`: (Number, default: 0) - The number of students enrolled
 */
 
+
 const courseSchema = new Schema({
   title: { type: String, required: true },
   instructor: { type: Schema.Types.ObjectId, ref: 'Instructor', required: true },
